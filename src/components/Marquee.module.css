@@ -1,0 +1,19 @@
+.section {
+  padding: 18px 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+  overflow: hidden;
+}
+.track {
+  display: flex; width: max-content;
+  animation: marquee 28s linear infinite;
+}
+.item {
+  display: flex; align-items: center; gap: 10px;
+  padding: 0 28px;
+  font-size: 13px; font-weight: 600;
+  color: var(--ink3); letter-spacing: 0.05em; text-transform: uppercase;
+  white-space: nowrap;
+}
+.sep { color: var(--accent); font-size: 10px; }

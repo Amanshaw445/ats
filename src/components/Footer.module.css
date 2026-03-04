@@ -1,0 +1,12 @@
+.footer { background: var(--ink); padding: 64px 5% 32px; }
+.inner { max-width: 1200px; margin: 0 auto; }
+.top { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 48px; padding-bottom: 40px; border-bottom: 1px solid rgba(255,255,255,0.08); margin-bottom: 28px; }
+.brand { display: flex; align-items: center; gap: 10px; font-family: 'Cabinet Grotesk', sans-serif; font-size: 18px; font-weight: 800; color: #fff; margin-bottom: 12px; }
+.mark { background: var(--accent); color: #fff; padding: 4px 8px; border-radius: 6px; font-size: 13px; }
+.brandDesc { font-size: 13px; color: rgba(255,255,255,0.4); line-height: 1.6; max-width: 280px; }
+.colTitle { font-size: 11px; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.25); margin-bottom: 16px; }
+.links { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.link { font-size: 14px; color: rgba(255,255,255,0.5); text-decoration: none; background: none; border: none; cursor: pointer; padding: 0; transition: color 0.15s; text-align: left; }
+.link:hover { color: rgba(255,255,255,0.9); }
+.bottom { display: flex; justify-content: space-between; align-items: center; font-size: 12px; color: rgba(255,255,255,0.25); flex-wrap: wrap; gap: 8px; }
+@media (max-width: 768px) { .top { grid-template-columns: 1fr; } }
